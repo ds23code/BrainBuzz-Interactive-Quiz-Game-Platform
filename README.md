@@ -18,27 +18,6 @@
 
 ---
 
-## Project Structure
-
-```
-assets/                     # Screenshots and deployment guides
-src/
-  config.json               # Server config (port, URL)
-  echo.ts                   # Echo test endpoint
-  names.ts                  # Quiz participant management
-  names.test.ts             # Unit tests
-  server.ts                 # Express server entry point
-  submission.ts             # Optional submission script
-eslint.config.mjs            # ESLint config
-jest.config.js               # Jest test config
-package.json
-package-lock.json
-tsconfig.json
-vercel.json                  # Vercel deployment configuration
-```
-
----
-
 ## Installation
 
 1. Clone the repository:
